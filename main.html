@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang = "en-US">
+    <head>
+     <meta charset = "UTF-8">
+     <title>OskiChat.html</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <div>
+            <div class = "topBar">
+                <p class = "topTxt">
+                        <strong class="oski">OskiChat!</strong> 
+
+                        <span class="centerTxt">
+                                Ask me a question! I won't eat you, I'm not that hungry right now. I think.
+                        </span>
+                        <span class="rightTxt">
+                                <a href="https://calcentral.berkeley.edu">CalCentral</a>
+                                <span>  |   </span>                            
+                                <a href="https://classes.berkeley.edu/">Class List</a>
+                        </span>
+                </p>        
+            </div>
+
+            <div style="clear: both;"></div>
+
+
+            <div style="margin: auto;
+            width: 85%;
+            padding: 20px;">
+                <img src="Bear.png" height="125px" width="125px" alt="" class="bear" /> 
+            </div>
+
+
+            <div id="output" > 
+                <ul class="chatbox" id="chat"> 
+                </ul>
+            </div>
+
+
+            <div>
+                <div id="container">
+                        <input type="text" name="input" id="input" value="">
+                        <button onclick="getInput()">Enter</button>
+                    </div>
+
+            </div>
+
+            <script src="app.js">
+            </script>
+
+        </div>
+
+        <noscript>
+            <h1> PLEASE ENABLE JAVASCRIPT </h1>h
+        </noscript>
+    </body>
+</html>
